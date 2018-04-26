@@ -2,7 +2,7 @@ Myfirst_script:
 
 cat unique_extentions_script.py
 s1=[] #creating a set
-with open('/home/aperuvi/aw_com_project/totalfiles_Apr-13-18-10:19.txt', 'r') as line: #opening the file as line
+with open('totalfiles_Apr-13-18-10:19.txt', 'r') as line: #opening the file as line
     file=line.readlines() #reading the lines in a variable (linebyline)
   #  print file - for testing purpose
     for i in file:
@@ -15,7 +15,7 @@ for j in op2:
 	
 +++++++++++++++++++++++++++++++++
 #s1=[]
-with open('/home/aperuvi/aw_com_project/test.txt', 'r') as line:
+with open('test.txt', 'r') as line:
     file=line.readlines()
     for i in file:
         d1=i.split('/')
