@@ -1,0 +1,36 @@
+Myfirst_script:
+
+cat unique_extentions_script.py
+s1=[] #creating a set
+with open('/home/aperuvi/aw_com_project/totalfiles_Apr-13-18-10:19.txt', 'r') as line: #opening the file as line
+    file=line.readlines() #reading the lines in a variable (linebyline)
+  #  print file - for testing purpose
+    for i in file:
+        s=i.replace("\n","").split('.') # Eliminating the new line character between 2 unique records and splitting it using "."
+        if len(s)>1: #Check the length of the string after splitting if it is more that 1 then proceed
+            s1.append(s[len(s)-1]) #
+op2=set(s1)
+for j in op2:
+    print (j)
+	
++++++++++++++++++++++++++++++++++
+#s1=[]
+with open('/home/aperuvi/aw_com_project/test.txt', 'r') as line:
+    file=line.readlines()
+    for i in file:
+        d1=i.split('/')
+        op1=d1[-1]
+        print (op1)
+        for k in op1:
+            #try:
+            d2=k.split('.')
+            if len(d2)>1:
+                print d2[1]
+            #except IndexError:
+         #if len(s)>1:
+           # s1.append(s[1])
+            #print s1
+        #else:
+          #  s1.append(s[0])
+        #print (s[-1])
+
