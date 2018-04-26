@@ -1,0 +1,27 @@
+html
+js
+txt
+xml
+htm
+css
+js-082009
+tmpl	html
+js-012610
+js-051110
+js-old
+html-old
+js0423
+js-070908
+xml_BACKUP_052605
+
+egrep -ie '\.html|\.js|\.txt|\.xml|\.htm|\.css|\.tmpl'
+
+.html		HTML
+.js			JS
+.txt		TXT
+.xml		XML
+.htm		HTML
+.css		CSS
+.tmpl		HTML
+
+For Https_rewrite need to watch Prateek join me video - 05/04/2018
